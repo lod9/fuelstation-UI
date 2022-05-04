@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    display: flex;
+    background: rgb(93, 255, 0);
+    background: linear-gradient(51deg, rgba(93, 255, 0, 0.3883928571428571) 0%, rgba(255, 255, 255, 0) 36%, rgba(163, 239, 255, 0) 69%, rgba(0, 212, 255, 0.5340511204481793) 100%);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#MainContainer {
+    position: relative;
+    width: 1000px;
+    height: 620px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.TopContainer h2 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    top: 50px;
+    left: 300px;
+}
+
+.TopContainer h3 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    left: 300px;
+}
+
+.TopContainer h6 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff6f;
+    text-shadow: 2px 2px 5px #000;
+    left: 300px;
+}
+
+.PriceContainer {
+    position: relative;
+    left: 300px;
+}
+
+#minus {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    background-color: #ffffff6b;
+    border: 1px solid #ffffff41;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    border-radius: 1.7px;
+}
+
+#plus {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    background-color: #ffffff6b;
+    border: 1px solid #ffffff41;
+    width: 80px;
+    height: 80px;
+    left: 10px;
+    border-radius: 1.7px;
+}
+
+#amount {
+    position: relative;
+    background-color: #ffffff6b;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    width: 304px;
+    height: 80px;
+    border: 1px solid #ffffff41;
+    border-radius: 1.7px;
+}
+
+#minus:hover {
+    background-color: #36d470;
+    transition: 0.3s;
+
+}
+
+#plus:hover {
+    background-color: #36d470;
+    transition: 0.3s;
+
+}
+
+.VehicleFuel {
+    position: relative;
+    left: 150px;
+}
+
+.VehicleFuel h6 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff6f;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 10px;
+    top: 80px;
+    left: 300px;
+}
+
+.FuelAmount {
+    position: relative;
+    left: 300px;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.PricePer {
+    position: relative;
+    left: 150px;
+}
+
+.PricePer h6 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff6f;
+    font-size: 10px;
+    top: -16px;
+    text-shadow: 2px 2px 5px #000;
+    left: 400px;
+}
+
+#FuelPrice {
+    position: relative;
+    left: 400px;
+    top: -97px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Options button {
+    position: relative;
+    background-color: #ffffff6b;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #ffffff41;
+    width: 150px;
+    height: 40px;
+    left: 280px;
+    color: #fff;
+    margin: 10px;
+    border: none;
+}
+
+.Options button:hover {
+    background-color: #36d470;
+    transition: 0.3s;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.modal {
+    position: absolute;
+    top: 415px;
+    left: 50%;
+    width: 300px;
+    height: 120px;
+    color: #ffff;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0 0 0 / 64%);
+    border-radius: 10px;
+}
+.accept {
+    position: absolute;
+    border: 0;
+    left: 15px;
+    width: 120px;
+    bottom: 30px;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px 7px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(13, 17, 19, 0.938);
+    height: 40px;
+}
+
+.recuse {
+    position: absolute;
+    border: 0;
+    right: 15px;
+    width: 120px;
+    bottom: 30px;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 7px;
+    font-weight: 200;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(13, 17, 19, 0.938);
+    height: 40px;
+}
+
+.modal .btninfo:hover {
+    background-color: rgba(24, 36, 43, 0.938);
+}
+
+.modal span {
+    position: relative;
+    top: 10px;
+}
